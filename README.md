@@ -84,6 +84,7 @@ After computing the solution, Mistral AI provides:
 ## Home Page
 
 *A modern landing page introducing Graph-Aware LLM Optimizer.*
+<img width="1920" height="1080" alt="Screenshot (246)" src="https://github.com/user-attachments/assets/234de31e-1a63-4098-a8a6-86775b327d2e" />
 
 ---
 
@@ -242,7 +243,9 @@ npm run dev
 
 ```bash
 uvicorn main:app --reload
+
 Or, id that doesn't work:
+
 python -m uvicorn main:app --reload
 ```
 
