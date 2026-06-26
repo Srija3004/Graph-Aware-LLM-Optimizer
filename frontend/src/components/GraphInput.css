@@ -1,0 +1,41 @@
+.graph-input {
+    max-width: 600px;
+}
+
+.graph-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: var(--color-text-primary);
+    font-size: 1rem;
+}
+
+.help-text {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    margin: 0;
+    font-style: italic;
+}
+
+.button-group {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-sm);
+}
+
+@media (max-width: 640px) {
+    .button-group {
+        flex-direction: column;
+    }
+}
