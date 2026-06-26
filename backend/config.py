@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     )
     
     # Mistral AI Configuration
-    mistral_api_key: str = "C1ykPTEeFfyjNl6ybN6tZ3nHqDbojQjO"
+    mistral_api_key: str = ""
     mistral_model: str = "mistral-medium"
     
     # Application Settings
