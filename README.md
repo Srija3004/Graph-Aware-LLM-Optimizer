@@ -242,11 +242,8 @@ npm run dev
 ## Run Backend
 
 ```bash
-uvicorn main:app --reload
+venv\Scripts\python.exe -m uvicorn main:app --reload
 
-Or, id that doesn't work:
-
-python -m uvicorn main:app --reload
 ```
 
 ---
