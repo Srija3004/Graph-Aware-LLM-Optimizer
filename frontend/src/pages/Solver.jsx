@@ -44,7 +44,8 @@ function Solver() {
         setError(null)
 
         try {
-            const endpoint = `/api/solve/${selectedProblem}`
+            // const endpoint = `/api/solve/${selectedProblem}`
+            const endpoint = `https://graph-aware-llm-backend.onrender.com/api/solve/${selectedProblem}`
             const response = await axios.post(endpoint, {
                 nodes: graphData.nodes,
                 edges: graphData.edges,
